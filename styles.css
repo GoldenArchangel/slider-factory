@@ -132,3 +132,29 @@ border: 5px solid whitesmoke;
 
     }
 }
+
+
+#slideset3 {height: 10em; position: relative;
+  
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    height: 50vh; object-fit:  fill;
+
+}
+  #slideset3 > * {height: 100%; box-sizing: border-box;
+    overflow: hidden}
+
+
+    #slideset3 > *:first-child {
+        animation: 12s autoplay3 infinite ease-in-out}
+      @keyframes autoplay3 {
+        0% {margin-top: 10em}
+        4% {margin-top: 0em}
+        31% {margin-top: 0em}
+ 
+      }
