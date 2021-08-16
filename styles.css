@@ -22,14 +22,15 @@ color: whitesmoke;
 
 
 .slideshow-container {
-    width: 60vw;
-    height: 60vh;
+    width: 50vw;
+    height: 50vh;
     position: relative;
     margin: auto;
     clear:both;
 border: 5px solid whitesmoke;
   background-color: black   ;
     
+  background-image: url(./img/yy025sm5.bmp);
 }
 
 .mySlides {
@@ -111,6 +112,8 @@ border: 5px solid whitesmoke;
    
     .slideshow-container {
         width: 96vw;
+        background-image: none;
+        background-color: transparent;
     }
 
     .text {
